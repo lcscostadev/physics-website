@@ -12,10 +12,10 @@
 <body>
     <!-- Header Section  -->
     <div class="container">
-        <header>
+        <header class="header" id="header">
             <div>
-                <lord-icon src="https://cdn.lordicon.com/oswatybr.json" trigger="hover"
-                    style="width:100px;height:100px">
+                <lord-icon src="https://cdn.lordicon.com/tdxlyuid.json" trigger="loop"
+                    colors="outline:#ffffff,primary:#30e849,secondary:#ebe6ef" style="width:120px;height:120px">
                 </lord-icon>
             </div>
             <!-- Navbar -->
@@ -25,10 +25,51 @@
                     <li><a href="#">Content</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <p>teste</p>
             </nav>
         </header>
     </div>
+
+    <main>
+        <div class="slider">
+            <!-- Radio Buttons -->
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- Fim Radio Buttons -->
+
+                <!-- Slide Images -->
+                <div class="slide">
+                    <img src="images/small-baby-kitten.jpg" alt="Small baby kitten">
+                </div>
+
+                <div class="slide first">
+                    <img src="images/green-eyes-thomas-shelby-looking-cat.jpg"
+                        alt="Green eyes Thomas Shelby looking cat">
+                </div>
+
+                <div class="slide">
+                    <img src="images/sleepy-orange-cat.jpg" alt="Sleepy orange cat">
+                </div>
+
+                <!-- Fim Slide Images -->
+
+                <!-- Navigation auto -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
